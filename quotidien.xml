@@ -9,19 +9,19 @@
       <title>Veille ciblée — quotidien — 12/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 20:30:00 +0000</pubDate>
+      <pubDate>Sat, 12 Sep 2026 20:37:37 +0000</pubDate>
       <description>&lt;p&gt;1 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
 &lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/73858"&gt;&lt;strong&gt;PR #73858 — [WebRTC] Concurrent RTCPeerConnections allocate O(N^2) UDP sockets&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 805f1f2b8b4fb05611aebf91c771dfc760e3d663 [WebRTC] Concurrent RTCPeerConnections allocate O(N^2) UDP sockets https://bugs.webkit.org/show_bug.cgi?id=321225 rdar://184396090 Reviewed by NOBODY (OOPS!). All the RTCPeerConnections of a document share one LibWebRTCNetworkManager and every port allocator session subscribes to it, so StartUpdating() signals all of them. libwebrtc is built for that: OnNetworksChanged() only allocates once allocation_started_ has been set in OnAllocate(), so a signal arriving before a session allocates is free. StartUpdating() signaled after a round trip through the main run loop, which delayed every signal past &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/73853"&gt;&lt;strong&gt;PR #73853 — ResourceResponseData constructor copies certificateInfo instead of moving it&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 6/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 102500f617c4227dd09387328c94c64e7fab9c5d ResourceResponseData constructor copies certificateInfo instead of moving it https://bugs.webkit.org/show_bug.cgi?id=324054 rdar://187287941 Reviewed by NOBODY (OOPS!). The ResourceResponseData constructor takes certificateInfo as a by-value std::optional but copied it into the member, leaving the moved-in argument unused. Move it into the member instead, matching the other move-constructed members. * Source/WebCore/platform/network/ResourceResponseBase.h: (WebCore::ResourceResponseData::ResourceResponseData): https://github.com/WebKit/WebKit/commit/102500f617c4227dd09387328c94c64e7fab9c5d | Misc &lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     <item>
       <title>Veille ciblée — quotidien — 12/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:initialisation</guid>
-      <pubDate>Sat, 12 Sep 2026 20:27:17 +0000</pubDate>
+      <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Sat, 12 Sep 2026 20:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 20:37:37 +0000</lastBuildDate>
   </channel>
 </rss>
