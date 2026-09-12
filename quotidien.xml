@@ -1,8 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel>
-<title>Veille ciblée — quotidien</title>
-<link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
-<description>Synthèse quotidienne des trouvailles pertinentes.</description>
-<language>fr-FR</language>
-<item><title>Veille ciblée initialisée</title><link>https://stephmouss.github.io/veille-flux/quotidien.xml</link><guid isPermaLink="false">initialisation-quotidien</guid><pubDate>Sat, 12 Sep 2026 19:00:00 +0000</pubDate><description>Le flux quotidien est prêt. Les prochaines éditions ne seront publiées que si une trouvaille pertinente est détectée.</description></item>
-</channel></rss>
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Veille ciblée — quotidien</title>
+    <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+    <description>Synthèse quotidienne des trouvailles pertinentes.</description>
+    <language>fr-FR</language>
+    <item>
+      <title>Veille ciblée — quotidien — 12/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-12</guid>
+      <pubDate>Sat, 12 Sep 2026 20:30:00 +0000</pubDate>
+      <description>&lt;p&gt;1 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/73858"&gt;&lt;strong&gt;PR #73858 — [WebRTC] Concurrent RTCPeerConnections allocate O(N^2) UDP sockets&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 805f1f2b8b4fb05611aebf91c771dfc760e3d663 [WebRTC] Concurrent RTCPeerConnections allocate O(N^2) UDP sockets https://bugs.webkit.org/show_bug.cgi?id=321225 rdar://184396090 Reviewed by NOBODY (OOPS!). All the RTCPeerConnections of a document share one LibWebRTCNetworkManager and every port allocator session subscribes to it, so StartUpdating() signals all of them. libwebrtc is built for that: OnNetworksChanged() only allocates once allocation_started_ has been set in OnAllocate(), so a signal arriving before a session allocates is free. StartUpdating() signaled after a round trip through the main run loop, which delayed every signal past &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Veille ciblée — quotidien — 12/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:initialisation</guid>
+      <pubDate>Sat, 12 Sep 2026 20:27:17 +0000</pubDate>
+      <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
+    </item>
+    <lastBuildDate>Sat, 12 Sep 2026 20:30:00 +0000</lastBuildDate>
+  </channel>
+</rss>
