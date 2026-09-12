@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Veille ciblée — bilan hebdomadaire</title>
+<link>https://stephmouss.github.io/veille-flux/hebdomadaire.xml</link>
+<description>Bilan indépendant sur sept jours et état des sources.</description>
+<language>fr-FR</language>
+<item><title>Veille ciblée initialisée</title><link>https://stephmouss.github.io/veille-flux/hebdomadaire.xml</link><guid isPermaLink="false">initialisation-hebdomadaire</guid><pubDate>Sat, 12 Sep 2026 19:00:00 +0000</pubDate><description>Le bilan hebdomadaire est prêt. Il sera publié chaque lundi et comprendra le contrôle de santé des sources.</description></item>
+</channel></rss>
