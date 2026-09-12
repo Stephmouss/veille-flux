@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Veille ciblée — quotidien</title>
+<link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+<description>Synthèse quotidienne des trouvailles pertinentes.</description>
+<language>fr-FR</language>
+<item><title>Veille ciblée initialisée</title><link>https://stephmouss.github.io/veille-flux/quotidien.xml</link><guid isPermaLink="false">initialisation-quotidien</guid><pubDate>Sat, 12 Sep 2026 19:00:00 +0000</pubDate><description>Le flux quotidien est prêt. Les prochaines éditions ne seront publiées que si une trouvaille pertinente est détectée.</description></item>
+</channel></rss>
