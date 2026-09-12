@@ -5,19 +5,16 @@
     <link>https://stephmouss.github.io/veille-flux/hebdomadaire.xml</link>
     <description>Bilan indépendant sur sept jours et état des sources.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 12 Sep 2026 20:37:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 23:05:57 +0000</lastBuildDate>
     <item>
       <title>Veille ciblée — bilan hebdomadaire — 12/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/hebdomadaire.xml</link>
       <guid isPermaLink="false">weekly:2026-09-07</guid>
-      <pubDate>Sat, 12 Sep 2026 20:37:37 +0000</pubDate>
-      <description>&lt;p&gt;1 élément(s) retenu(s) par la veille hebdomadaire.&lt;/p&gt;
-&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/73853"&gt;&lt;strong&gt;PR #73853 — ResourceResponseData constructor copies certificateInfo instead of moving it&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 6/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 102500f617c4227dd09387328c94c64e7fab9c5d ResourceResponseData constructor copies certificateInfo instead of moving it https://bugs.webkit.org/show_bug.cgi?id=324054 rdar://187287941 Reviewed by NOBODY (OOPS!). The ResourceResponseData constructor takes certificateInfo as a by-value std::optional but copied it into the member, leaving the moved-in argument unused. Move it into the member instead, matching the other move-constructed members. * Source/WebCore/platform/network/ResourceResponseBase.h: (WebCore::ResourceResponseData::ResourceResponseData): https://github.com/WebKit/WebKit/commit/102500f617c4227dd09387328c94c64e7fab9c5d | Misc &lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+      <pubDate>Sat, 12 Sep 2026 23:05:57 +0000</pubDate>
+      <description>&lt;p&gt;0 élément(s) retenu(s) par la veille hebdomadaire.&lt;/p&gt;
 &lt;h2&gt;Santé de la veille&lt;/h2&gt;
-&lt;p&gt;22 source(s) accessibles sur 27.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Japon — MIC/TELEC/JATE&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=js01&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Taïwan — NCC&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx&lt;/li&gt;&lt;li&gt;&lt;strong&gt;DATA INPI&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://data.inpi.fr/&lt;/li&gt;&lt;li&gt;&lt;strong&gt;EUIPO&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://www.euipo.europa.eu/en/search-ip&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Espacenet&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://worldwide.espacenet.com/&lt;/li&gt;&lt;/ul&gt;</description>
+&lt;p&gt;21 source(s) accessibles sur 27.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Japon — MIC/TELEC/JATE&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=js01&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Taïwan — NCC&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Corée du Sud — RRA&lt;/strong&gt; : HTTPSConnectionPool(host=&amp;#x27;www.rra.go.kr&amp;#x27;, port=443): Max retries exceeded with url: /ko/license/A_b_popup_keyno.do (Caused by ConnectTimeoutError(&amp;lt;HTTPSConnection(host=&amp;#x27;www.rra.go.kr&amp;#x27;, port=443) at 0x7f0828734770&amp;gt;, &amp;#x27;Connection to www.rra.go.kr timed out. (connect timeout=35)&amp;#x27;))&lt;/li&gt;&lt;li&gt;&lt;strong&gt;DATA INPI&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://data.inpi.fr/&lt;/li&gt;&lt;li&gt;&lt;strong&gt;EUIPO&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://www.euipo.europa.eu/en/search-ip&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Espacenet&lt;/strong&gt; : 403 Client Error: Forbidden for url: https://worldwide.espacenet.com/&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
