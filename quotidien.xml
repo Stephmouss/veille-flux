@@ -6,12 +6,23 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 15/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 10:07:56 +0000</pubDate>
+      <description>&lt;p&gt;2 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/73804"&gt;&lt;strong&gt;PR #73804 — Passkeys during headless browsing&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 8df8cd1e006e0b9f60c1489b2898c035d01a4c57 Passkeys during headless browsing https://bugs.webkit.org/show_bug.cgi?id=323996 rdar://186409291 Reviewed by NOBODY (OOPS!). This introduces some changes to potentially allow passkeys during headless browsing. - Conditionally allows triggering the passkey request when the document is not focused - New optional WKWebView delegate methods upon passkey request and completion - Plumbing to pass through a headless browsing context that describes the session - Removing use of old SPI that no longer exists * Source/WebCore/Modules/webauthn/AuthenticatorCoordinator.cpp: (WebCore::AuthenticatorCoordinator&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74003"&gt;&lt;strong&gt;PR #74003 — Record Local Network Access permission decisions and report them from navigator.permissions&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 62ffde30ea675d97878fcb671f7aa772f7457c66 Record Local Network Access permission decisions and report them from navigator.permissions https://bugs.webkit.org/show_bug.cgi?id=324190 rdar://187410420 Reviewed by NOBODY (OOPS!). Feature work for Local Network Access ( https://wicg.github.io/local-network-access/) , sections 2.6 and 3.1.1. The check algorithm has consulted a grant map since 320971@main , but nothing wrote to it, so every outcome that depends on a recorded decision was unreachable. This adds the writer, the revocation path, and navigator.permissions.query() support for the two permissions. query() is answered from the networki&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 12/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:initialisation</guid>
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Sun, 13 Sep 2026 15:20:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 10:07:56 +0000</lastBuildDate>
   </channel>
 </rss>
