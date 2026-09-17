@@ -6,6 +6,18 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 17/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 10:03:25 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/73804"&gt;&lt;strong&gt;PR #73804 — Passkeys during headless browsing&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 8df8cd1e006e0b9f60c1489b2898c035d01a4c57 Passkeys during headless browsing https://bugs.webkit.org/show_bug.cgi?id=323996 rdar://186409291 Reviewed by NOBODY (OOPS!). This introduces some changes to potentially allow passkeys during headless browsing. - Conditionally allows triggering the passkey request when the document is not focused - New optional WKWebView delegate methods upon passkey request and completion - Plumbing to pass through a headless browsing context that describes the session - Removing use of old SPI that no longer exists * Source/WebCore/Modules/webauthn/AuthenticatorCoordinator.cpp: (WebCore::AuthenticatorCoordinator&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74220"&gt;&lt;strong&gt;PR #74220 — [AppKit Gestures] Mouse dragging the track of a custom-styled range input often does not slide&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### b1f27a4d2071e99f086176b1b382781a4ab41159 [AppKit Gestures] Mouse dragging the track of a custom-styled range input often does not slide https://bugs.webkit.org/show_bug.cgi?id=324408 rdar://186965160 Reviewed by NOBODY (OOPS!). Restyling a range input&amp;#x27;s track can produce a hit area that is only as tall as the track itself, which can be just a couple of points. A mouse drag starting on the track, away from the thumb, therefore lands on whatever wraps the control. Position information reports the wrapper, so the WKAppKitGestureController has content to yield to, and mouse tracking does not end up getting recognized. To fix this, we now sup&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74229"&gt;&lt;strong&gt;PR #74229 — [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : liquid glass.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 61aa2cdf6f935695d4cbb44dec931d3da5cf2996 [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes https://bugs.webkit.org/show_bug.cgi?id=324418 rdar://153675532 Reviewed by NOBODY (OOPS!). fixedContainerEdges tints liquid glass edges by snapshotting the main frame and reading the pixels near each edge. With site isolation a cross-origin iframe is a remote frame in another process, so its pixels are missing from that snapshot and the edge comes out uncolored. Have each subframe now sample its own per-edge colors and report them via FrameTreeSyncData. When the main frame process samples an edge and finds no&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 16/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-16</guid>
@@ -34,6 +46,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Wed, 16 Sep 2026 10:03:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 10:03:25 +0000</lastBuildDate>
   </channel>
 </rss>
