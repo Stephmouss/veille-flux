@@ -6,6 +6,18 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 18/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 09:46:11 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74264"&gt;&lt;strong&gt;PR #74264 — Add the notification delegate API surface for the browser.notifications web extension API&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 13/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : apple, apple inc, ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 750db0a27d54b929a5a689921479d079375e6501 Add the notification delegate API surface for the browser.notifications web extension API https://bugs.webkit.org/show_bug.cgi?id=324448 rdar://187615569 Reviewed by NOBODY (OOPS!). This patch adds the app-facing API surface used to delegate browser.notifications creation/updates/etc. to the host app. It introduces the notification model object(s). It also adds four optional delegate methods, through which the app creates/updates/etc. notifications and reports the current permission level. These changes include declarations only. The implementation will be in a later change. * Source/WebKit/Module&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74220"&gt;&lt;strong&gt;PR #74220 — [AppKit Gestures] Mouse dragging the track of a custom-styled range input often does not slide&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### cdc1d3c56aa00182adab16cb2f5de843e2fea657 [AppKit Gestures] Mouse dragging the track of a custom-styled range input often does not slide https://bugs.webkit.org/show_bug.cgi?id=324408 rdar://186965160 Reviewed by NOBODY (OOPS!). Restyling a range input&amp;#x27;s track can produce a hit area that is only as tall as the track itself, which can be just a couple of points. A mouse drag starting on the track, away from the thumb, therefore lands on whatever wraps the control. Position information reports the wrapper, so the WKAppKitGestureController has content to yield to, and mouse tracking does not end up getting recognized. To fix this, we now sup&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74229"&gt;&lt;strong&gt;PR #74229 — [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : liquid glass.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### d327e7496e2fe1a5061a797cd5912f6fe5d72fa9 [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes https://bugs.webkit.org/show_bug.cgi?id=324418 rdar://153675532 Reviewed by NOBODY (OOPS!). fixedContainerEdges tints liquid glass edges by snapshotting the main frame and reading the pixels near each edge. With site isolation a cross-origin iframe is a remote frame in another process, so its pixels are missing from that snapshot and the edge comes out uncolored. Have each subframe now sample its own per-edge colors and report them via FrameTreeSyncData. When the main frame process samples an edge and finds no&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 17/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-17</guid>
@@ -46,6 +58,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Thu, 17 Sep 2026 10:03:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 09:46:11 +0000</lastBuildDate>
   </channel>
 </rss>
