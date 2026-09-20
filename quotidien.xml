@@ -9,10 +9,10 @@
       <title>Veille ciblée — quotidien — 20/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 09:48:23 +0000</pubDate>
+      <pubDate>Sun, 20 Sep 2026 10:24:07 +0000</pubDate>
       <description>&lt;p&gt;1 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
-&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74365"&gt;&lt;strong&gt;PR #74365 — [AXCustomColorMode] Lay the groundwork for some AXCustomColorMode appearance detection&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### c5a1c7957f12d699a2f655ac970806e0988e631f [AXCustomColorMode] Lay the groundwork for some AXCustomColorMode appearance detection https://bugs.webkit.org/show_bug.cgi?id=324571 rdar://187804459 Reviewed by NOBODY (OOPS!). AXCustomColorMode runs some detection logic at `didReachVisuallyNonEmptyState` time, to adjust its behavior, and needs to get reset between page loads, so hook that up. Part of that involves some state getting back to the UI process, which requires new WebPageProxy message that lives in WebKitAdditions, so add the ability to have `serialization.in` files in WebKitAdditions via changes to the message receiver generation co&lt;/p&gt;&lt;/li&gt;
+&lt;h2&gt;Apple en France — entreprises et finances&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://services.pappers.fr/depot-comptes-annuels?utm_source=bandeau+bloc+PE&amp;amp;utm_medium=bandeau+bloc+PE&amp;amp;utm_campaign=Lien+track%C3%A9+DC+-+bandeau+bloc+PE"&gt;&lt;strong&gt;Déposez vos comptes annuels sur Pappers Services&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Pappers — Apple Retail France · score 5/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Nouveau lien ou intitulé modifié Signaux : apple.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Apple Retail France — comptes, actes, annonces et décisions&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     <item>
@@ -84,6 +84,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Sun, 20 Sep 2026 09:48:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 10:24:07 +0000</lastBuildDate>
   </channel>
 </rss>
