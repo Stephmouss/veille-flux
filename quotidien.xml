@@ -6,6 +6,18 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 24/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 10:03:14 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74740"&gt;&lt;strong&gt;PR #74740 — Ask the embedder when a Local Network Access request has no recorded decision&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 65135736f091a2733875460db1ef5f2c5e7ed859 Ask the embedder when a Local Network Access request has no recorded decision https://bugs.webkit.org/show_bug.cgi?id=325072 rdar://188234541 Reviewed by NOBODY (OOPS!). This is Local Network Access feature work: https://wicg.github.io/local-network-access/ A request with no recorded decision was refused outright, because there was nothing to ask. The network process now asks the UI process, which asks the page&amp;#x27;s UI client, and records Granted or Denied so the same origin pair and address space is not asked again. The answer is LocalNetworkAccessPromptResult rather than PermissionState. A client c&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74475"&gt;&lt;strong&gt;PR #74475 — [AXCustomColorMode] Lay the groundwork for some AXCustomColorMode appearance detection&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : closed Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 5a1e7b740f3886f508738d393d48b868ae33b795 [AXCustomColorMode] Lay the groundwork for some AXCustomColorMode appearance detection https://bugs.webkit.org/show_bug.cgi?id=324571 rdar://187804459 Reviewed by Richard Robinson. AXCustomColorMode runs some detection logic at `didReachVisuallyNonEmptyState` time, to adjust its behavior, and needs to get reset between page loads, so hook that up. Part of that involves some state getting back to the UI process, which requires new WebPageProxy message that lives in WebKitAdditions, so add the ability to have `serialization.in` files in WebKitAdditions via changes to the message receiver generation &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74229"&gt;&lt;strong&gt;PR #74229 — [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : liquid glass.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 8d7aedc524053db82e13b2ad8ed45109349221e2 [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes https://bugs.webkit.org/show_bug.cgi?id=324418 rdar://153675532 Reviewed by NOBODY (OOPS!). LocalFrameView::fixedContainerEdges computes the liquid glass colors at the edges of the view, and they should be the same with site isolation on and off. Under site isolation, a cross-site iframe in a fixed or sticky container is painted by another process, so PageColorSampler&amp;#x27;s snapshot of that edge is missing it. Once the iframe covers 10 or more of the 29 sample points, the edge gets PredominantColorType::None or Mu&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 23/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-23</guid>
@@ -138,6 +150,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Wed, 23 Sep 2026 10:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 10:03:14 +0000</lastBuildDate>
   </channel>
 </rss>
