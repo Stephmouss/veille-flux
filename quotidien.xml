@@ -6,6 +6,19 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 26/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 09:54:46 +0000</pubDate>
+      <description>&lt;p&gt;4 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74895"&gt;&lt;strong&gt;PR #74895 — [Webpage Translation Refactoring] Add ViewportProximityInfo to _WKTextManipulationItem&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 96aefc2b6e55f0b5a03abee6f579136376bc87ce [Webpage Translation Refactoring] Add ViewportProximityInfo to _WKTextManipulationItem https://bugs.webkit.org/show_bug.cgi?id=325243 rdar://188356502 Reviewed by NOBODY (OOPS!). Add the ViewportProximityInfo heuristic to _WKTextManipulationItem. Additionally, create six new API tests that test: - ViewportProximity: Checks for Intersecting and Offscreen texts - ViewportProximityHorizontalDistance: Ensures the distance is normalized by the viewport width when text is pushed to the side instead of just downwards. - ViewportProximityCoverageBounds: Two independent sub-blocks that test viewportCoverag&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/51027"&gt;&lt;strong&gt;PR #51027 — [Site Isolation] Cross-origin isolation should belong to the browsing context group&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 69a1929f250698c26a7405803d9644adaa9b4199 [Site Isolation] Cross-origin isolation should belong to the browsing context group https://bugs.webkit.org/show_bug.cgi?id=299201 rdar://116203642 Reviewed by NOBODY (OOPS!). A COOP: same-origin + COEP: require-corp page only got a CrossOriginMode::Isolated process for its main frame. Its cross-site subframes, the site isolation shared process, and the process launched after a crash were all Shared, so those frames had no SharedArrayBuffer. A process&amp;#x27;s mode is fixed at launch and applies to everything it hosts, so it must be known when the process is picked. Make the mode a property of the Browsi&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74760"&gt;&lt;strong&gt;PR #74760 — [mya] Build mya on linux; Add mya_heap and liblldb + rtti as dependencies.&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### ebab1291e44ef8b33c1ba628a705c7d6b4bb7d9f [mya] Build mya on linux; Add mya_heap and liblldb + rtti as dependencies. https://bugs.webkit.org/show_bug.cgi?id=325094 Reviewed by NOBODY (OOPS!). This patch is the first step to getting mya working on linux. We add a stub implementation that does almost nothing, but it confirms that mya can bulid and run on linux. mya on macOS with cmake and with xcodebuild still work as expected. Next, we add an optional dependency to mya, mya_heap: - liblldb (installed via homebrew or linux package manager) is used to read debug info - rtti is added as a compile option to the target process (jsc, WebCore, et&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74972"&gt;&lt;strong&gt;PR #74972 — underPageBackgroundColor is incorrect when AX Custom Color Mode active&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### cf59edb1db816a65578bad14adf3862abc8ebbaa underPageBackgroundColor is incorrect when AX Custom Color Mode active https://bugs.webkit.org/show_bug.cgi?id=325321 rdar://188430148 Reviewed by NOBODY (OOPS!). Adjust the reported under page background color when AX custom color mode is active in order to correctly reflect the modified color. * Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm: * Source/WebKit/UIProcess/ios/WebPageProxyIOS.mm: (WebKit::WebPageProxy::platformUnderPageBackgroundColor const): * Source/WebKit/UIProcess/mac/WebPageProxyMac.mm: (WebKit::WebPageProxy::platformUnderPageBackgroundColor const): https://github.com/WebKit&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 25/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-25</guid>
@@ -162,6 +175,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Fri, 25 Sep 2026 21:21:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:54:46 +0000</lastBuildDate>
   </channel>
 </rss>
