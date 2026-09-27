@@ -6,6 +6,18 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 27/09/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-09-27</guid>
+      <pubDate>Sun, 27 Sep 2026 10:36:28 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74760"&gt;&lt;strong&gt;PR #74760 — [mya] Build mya on linux; Add mya_heap and liblldb + rtti as dependencies.&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### ebab1291e44ef8b33c1ba628a705c7d6b4bb7d9f [mya] Build mya on linux; Add mya_heap and liblldb + rtti as dependencies. https://bugs.webkit.org/show_bug.cgi?id=325094 Reviewed by NOBODY (OOPS!). This patch is the first step to getting mya working on linux. We add a stub implementation that does almost nothing, but it confirms that mya can bulid and run on linux. mya on macOS with cmake and with xcodebuild still work as expected. Next, we add an optional dependency to mya, mya_heap: - liblldb (installed via homebrew or linux package manager) is used to read debug info - rtti is added as a compile option to the target process (jsc, WebCore, et&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74952"&gt;&lt;strong&gt;PR #74952 — [mya] Extend error handling and testing to make future additions easier&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### d59f35948e5bbd5dbd9ab9281428ec300fa0708f [mya] Extend error handling and testing to make future additions easier https://bugs.webkit.org/show_bug.cgi?id=325303 Reviewed by NOBODY (OOPS!). Some cleanups to make future tests + linux support easier. ---------------------------------------------------------------------- #### f2bb8d749c73bb976c62e26a3a97bee443a94346 [mya] Build mya on linux; Add mya_heap and liblldb + rtti as dependencies. https://bugs.webkit.org/show_bug.cgi?id=325094 Reviewed by NOBODY (OOPS!). This patch is the first step to getting mya working on linux. We add a stub implementation that does almost nothing, but it confirm&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74229"&gt;&lt;strong&gt;PR #74229 — [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : liquid glass.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 9e3338fcc076f834816bc5c709371369edf26de5 [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes https://bugs.webkit.org/show_bug.cgi?id=324418 rdar://153675532 Reviewed by NOBODY (OOPS!). LocalFrameView::fixedContainerEdges samples the liquid glass chrome colors at the edges of the view. Under site isolation, a cross-site iframe in a fixed or sticky container is painted by another process, so the main frame&amp;#x27;s own snapshot of that edge is missing it. Each root frame other than the main frame now samples its own four edges and sends a Color, None, or Multiple for each one to its parent frame&amp;#x27;s process, in &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 26/09/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-09-26</guid>
@@ -175,6 +187,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Sat, 26 Sep 2026 09:54:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 10:36:28 +0000</lastBuildDate>
   </channel>
 </rss>
