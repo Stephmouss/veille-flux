@@ -6,6 +6,21 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 02/10/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 11:13:35 +0000</pubDate>
+      <description>&lt;p&gt;4 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74740"&gt;&lt;strong&gt;PR #74740 — Ask the embedder when a Local Network Access request has no recorded decision&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : closed Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 2917d6c16d9c986306a567222dda3ef72e2a1ddb Ask the embedder when a Local Network Access request has no recorded decision https://bugs.webkit.org/show_bug.cgi?id=325072 rdar://188234541 Reviewed by Youenn Fablet and Alex Christensen. This is Local Network Access feature work: https://wicg.github.io/local-network-access/ A request with no recorded decision was refused outright, because there was nothing to ask. It now goes to the UI process, which asks the page&amp;#x27;s UI client for a grant or denial and records the answer for the origin pair and address space. A grant covers the whole address space, not one device. See https://github.com/WICG/loc&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/75216"&gt;&lt;strong&gt;PR #75216 — Implement the Device Posture API&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : closed Signaux : apple, apple inc, hinge.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### bb06bdc992326258c402dd4594c2cffd77ca3795 Implement the Device Posture API https://bugs.webkit.org/show_bug.cgi?id=325585 rdar://187132802 Reviewed by Tim Nguyen. Implement the Device Posture API behind an off-by-default feature flag. The Device Posture API allows applications to request and be notified of changes of the posture of a device. The posture may be either &amp;quot;continuous&amp;quot; or &amp;quot;folded&amp;quot;. The implementation adds a `DevicePosture` object to `Navigator` and a device-posture media query. Devices that do not support a folded state will always report as continuous. Tests to come in a separate patch. Spec: https://w3c.github.io/device-postu&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/64837"&gt;&lt;strong&gt;PR #64837 — VP9 with transparency plays back incorrectly&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : transparency.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### d20ee4ad8b9cb36831f5647c86981c0ae353eeab VP9 with transparency plays back incorrectly https://bugs.webkit.org/show_bug.cgi?id=275908 Reviewed by NOBODY (OOPS!). WebKit does not support WebM VP9 videos with an alpha channel: the alpha plane was dropped by the parser and such videos played fully opaque. This change adds support for them. Chrome and Firefox already play these files natively. Came across this while looking at cross-browser transparent video playback. I&amp;#x27;d been working around it in https://github.com/stepancar/alpha-video-kit/ following Jake Archibald&amp;#x27;s writeup ( https://jakearchibald.com/2024/video-with-transparency/). Tests:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://jpsapi.wirelesspowerconsortium.com/products/qi/26278"&gt;&lt;strong&gt;IKEA — STENGRÖNSKA (E2572)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Wireless Power Consortium — Qi · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche Qi certifiée dans la base officielle WPC Signaux : ikea, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Marque : IKEA · Produit : STENGRÖNSKA · Référence : E2572 · Qi-ID : 26278 · Profil : EPP · Puissance : 15 W · Version : 2.1.0 · Date de certification : 2026-10-01&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 01/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-01</guid>
@@ -254,6 +269,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Thu, 01 Oct 2026 11:44:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 11:13:35 +0000</lastBuildDate>
   </channel>
 </rss>
