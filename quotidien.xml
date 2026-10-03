@@ -6,6 +6,18 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 03/10/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 10:28:03 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/51027"&gt;&lt;strong&gt;PR #51027 — [Site Isolation] Cross-origin isolation should belong to the browsing context group&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 04c035b183497a25b8fe88046beafd368fc19d9b [Site Isolation] Cross-origin isolation should belong to the browsing context group https://bugs.webkit.org/show_bug.cgi?id=299201 rdar://116203642 Reviewed by NOBODY (OOPS!). A COOP: same-origin + COEP: require-corp page only got a CrossOriginMode::Isolated process for its main frame. Its cross-site subframes, the site isolation shared process, and the process launched after a crash were all Shared, so those frames had no SharedArrayBuffer. A process&amp;#x27;s mode is fixed at launch and applies to everything it hosts, so it must be known when the process is picked. Make the mode a property of the Browsi&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/64837"&gt;&lt;strong&gt;PR #64837 — VP9 with transparency plays back incorrectly&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : transparency.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### d20ee4ad8b9cb36831f5647c86981c0ae353eeab VP9 with transparency plays back incorrectly https://bugs.webkit.org/show_bug.cgi?id=275908 Reviewed by NOBODY (OOPS!). WebKit does not support WebM VP9 videos with an alpha channel: the alpha plane was dropped by the parser and such videos played fully opaque. This change adds support for them. Chrome and Firefox already play these files natively. Came across this while looking at cross-browser transparent video playback. I&amp;#x27;d been working around it in https://github.com/stepancar/alpha-video-kit/ following Jake Archibald&amp;#x27;s writeup ( https://jakearchibald.com/2024/video-with-transparency/). Tests:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74229"&gt;&lt;strong&gt;PR #74229 — [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : liquid glass.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 3aaa64ee37624f9ccfa849c7072bb443e61a279e [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes https://bugs.webkit.org/show_bug.cgi?id=324418 rdar://153675532 Reviewed by NOBODY (OOPS!). With site isolation enabled, the edge colors that LocalFrameView::fixedContainerEdges samples do not include the content of iframes hosted by another process. PageColorSampler::predominantColor samples a snapshot of the main frame. When the snapshot reaches an iframe&amp;#x27;s RemoteFrameView, paintContents calls WebPage::paintRemoteFrameContents, which only draws into the recorder in WebPage::m_remoteSnapshotState, so the ifra&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 02/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-02</guid>
@@ -269,6 +281,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Fri, 02 Oct 2026 11:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 10:28:03 +0000</lastBuildDate>
   </channel>
 </rss>
