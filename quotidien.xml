@@ -6,6 +6,25 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 05/10/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 22:37:36 +0000</pubDate>
+      <description>&lt;p&gt;8 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/75937"&gt;&lt;strong&gt;PR #75937 — Deprecate _WKTargetedElementInfo.getChildFrames&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 272ac47c10b2d7c28c0541d33dac48e2b16a7136 Deprecate _WKTargetedElementInfo.getChildFrames https://bugs.webkit.org/show_bug.cgi?id=326392 rdar://189216448 Reviewed by NOBODY (OOPS!). This is a step towards making _WKFrameTreeNode a test-only SPI. We probably should&amp;#x27;ve just used an array of WKFrameInfo, but it turned out not to be needed. Even better! Test: Tools/TestWebKitAPI/Tests/WebKit/WKWebView/ElementTargetingTests.mm * Source/WebKit/UIProcess/API/APITargetedElementInfo.cpp: (API::TargetedElementInfo::childFrames const): * Source/WebKit/UIProcess/API/APITargetedElementInfo.h: * Source/WebKit/UIProcess/API/Cocoa/_WKTargetedElementInfo.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=%EC%95%A0%ED%94%8C%EC%BD%94%EB%A6%AC%EC%95%84+%EC%9C%A0%ED%95%9C%ED%9A%8C%EC%82%AC"&gt;&lt;strong&gt;RRA — Apple : 656-0283&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : apple, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : 656-0283. Appareil : Apple SSD. Société : 애플코리아 유한회사. Type : 적합등록. Fabrication : 중국. Homologation : 2026-10-02.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — Belkin : WIC014 (CCAR26LP1520T4)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : belkin, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAR26LP1520T4. Marque : belkin. Modèle : WIC014. Appareil : 無線充電器. Fabricant : . Demandeur : Belkin Internation, Inc.. Homologation : 2026-09-29.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — Logitech : MR0160 (CCAI26LP1310T7)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : logitech, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAI26LP1310T7. Marque : Logitech. Modèle : MR0160. Appareil : Wireless Mouse. Fabricant : . Demandeur : 羅技電子股份有限公司. Homologation : 2026-09-29.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — Logitech : MR0166 (CCAI26LP1320T0)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : logitech, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAI26LP1320T0. Marque : Logitech. Modèle : MR0166. Appareil : Wireless Mouse. Fabricant : . Demandeur : 羅技電子股份有限公司. Homologation : 2026-09-29.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — Logitech : MR0168 (CCAI26LP1330T0)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : logitech, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAI26LP1330T0. Marque : Logitech. Modèle : MR0168. Appareil : Wireless Mouse. Fabricant : . Demandeur : 羅技電子股份有限公司. Homologation : 2026-09-29.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — Signify : 44228012622 (CCAP26Y10180T8)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : signify, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAP26Y10180T8. Marque : Signify. Modèle : 44228012622. Appareil : Hue Connect. Fabricant : . Demandeur : 台灣昕諾飛股份有限公司. Homologation : 2026-09-29.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — Signify : 44228012623 (CCAP26Y10181T0)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : signify, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAP26Y10181T0. Marque : Signify. Modèle : 44228012623. Appareil : Hue Connect. Fabricant : . Demandeur : 台灣昕諾飛股份有限公司. Homologation : 2026-09-29.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 04/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-04</guid>
@@ -292,6 +311,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Sun, 04 Oct 2026 11:12:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 22:37:36 +0000</lastBuildDate>
   </channel>
 </rss>
