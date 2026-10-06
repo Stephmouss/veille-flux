@@ -6,6 +6,13 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>IKEA of Sweden AB — LILJEBAGGE radiator thermostat</title>
+      <link>https://csa-iot.org/csa_product/liljebagge-radiator-thermostat/</link>
+      <guid isPermaLink="false">finding:3429b086ae5a4a3f4a59320ffa54e8b9df08647d0e60480762c5503472b931b8</guid>
+      <pubDate>Tue, 06 Oct 2026 12:01:53 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/liljebagge-radiator-thermostat/"&gt;&lt;strong&gt;IKEA of Sweden AB — LILJEBAGGE radiator thermostat&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : ikea, certified, thread.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : IKEA of Sweden AB · Produit : LILJEBAGGE radiator thermostat · Certificate ID : CSA2650GMAT55904-24 · Certified Date : 10/05/2026 · Specification Version : 1.4.2 · Transport Interface : Thread, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 05/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-05</guid>
@@ -311,6 +318,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Mon, 05 Oct 2026 22:37:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 12:07:34 +0000</lastBuildDate>
   </channel>
 </rss>
