@@ -6,6 +6,21 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 08/10/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 12:07:38 +0000</pubDate>
+      <description>&lt;p&gt;4 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/76245"&gt;&lt;strong&gt;PR #76245 — [Webpage Translation Refactoring] Add conceptual regions to TextManipulation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 9607783c8257d1266465771961354c5bc7012d5b [Webpage Translation Refactoring] Add conceptual regions to TextManipulation https://bugs.webkit.org/show_bug.cgi?id=326724 rdar://189443740 Reviewed by NOBODY (OOPS!). There is no way to tell which _WKTextManipulationItem belong together, such as the links in a navigation bar or the paragraphs of an article. It is helpful to have logical groupings of items, so introduce _WKTextManipulationRegion. The notion of a region here is a group of nearby text items of the same kind, with the items listed in page order. Clients opt in with the includesRegions property on _WKTextManipulationConfiguration. Wi&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74952"&gt;&lt;strong&gt;PR #74952 — [mya] Extend error handling and testing to make future additions easier&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### d59f35948e5bbd5dbd9ab9281428ec300fa0708f [mya] Extend error handling and testing to make future additions easier https://bugs.webkit.org/show_bug.cgi?id=325303 Reviewed by NOBODY (OOPS!). Some cleanups to make future tests + linux support easier. ---------------------------------------------------------------------- #### f2bb8d749c73bb976c62e26a3a97bee443a94346 [mya] Build mya on linux; Add mya_heap and liblldb + rtti as dependencies. https://bugs.webkit.org/show_bug.cgi?id=325094 Reviewed by NOBODY (OOPS!). This patch is the first step to getting mya working on linux. We add a stub implementation that does almost nothing, but it confirm&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/74229"&gt;&lt;strong&gt;PR #74229 — [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : liquid glass.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 410e135b3cfe000dad53429a06cbf84f6c4c66c3 [Site Isolation] Sample liquid glass fixed container edge colors from cross-site iframes https://bugs.webkit.org/show_bug.cgi?id=324418 rdar://153675532 Reviewed by NOBODY (OOPS!). With site isolation enabled, the edge colors that LocalFrameView::fixedContainerEdges samples do not include the content of iframes hosted by another process. PageColorSampler::predominantColor snapshots the main frame, and that snapshot does not include the content of a RemoteFrameView. Fix by making the edge a FrameIdentifier when the hit test finds a RemoteFrame. The UI process sends SetFixedContainerEdgeSamplingSide&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://nccmember.ncc.gov.tw/Application/Fun/Fun016.aspx"&gt;&lt;strong&gt;NCC — IKEA : BILRESA 遙控器 智慧/雙按鈕 (CCAN26LP1800T9)&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taïwan — NCC · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche extraite de l’export officiel NCC ; numéro permettant de retrouver le dossier dans le registre. Signaux : ikea, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification NCC CCAN26LP1800T9. Marque : IKEA. Modèle : BILRESA 遙控器 智慧/雙按鈕. Appareil : 遙控器. Fabricant : . Demandeur : 宜家家居股份有限公司. Homologation : 2026-10-06.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 07/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-07</guid>
@@ -341,6 +356,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Wed, 07 Oct 2026 11:52:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 12:07:38 +0000</lastBuildDate>
   </channel>
 </rss>
