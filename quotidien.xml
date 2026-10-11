@@ -6,6 +6,17 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 11/10/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-10-11</guid>
+      <pubDate>Sun, 11 Oct 2026 11:27:58 +0000</pubDate>
+      <description>&lt;p&gt;2 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/76620"&gt;&lt;strong&gt;PR #76620 — [Site Isolation] Remove `convertRectToMainFrameCoordinates` and deprecate the `_convertRect:fromFrame:toMainFrameCoordinates:` SPI&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 08f178fb1b317a58e59b3ff1cd3e8012b9204443 [Site Isolation] Remove `convertRectToMainFrameCoordinates` and deprecate the `_convertRect:fromFrame:toMainFrameCoordinates:` SPI https://bugs.webkit.org/show_bug.cgi?id=327108 rdar://189720248 Reviewed by NOBODY (OOPS!). WebPageProxy::convertRectToMainFrameCoordinates converted a rect to main frame coordinates with a chain of asynchronous ContentsToRootViewRect messages to the process of each ancestor frame, which gave wrong results in some cases, such as in scrolled cross-origin iframes. Every WebKit caller now computes main frame coordinates in the web process with contentsToMainFrameView inst&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/commit/ba2293363a8d287735fac85780965fcd675d3abc"&gt;&lt;strong&gt;Add a preference to enable EnhancedSecurity by default&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Commit ba22933 — 1 fichier(s) pertinent(s) Signaux : internal preference.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Add a preference to enable EnhancedSecurity by default https://bugs.webkit.org/show_bug.cgi?id=326349 rdar://189191126 Reviewed by Per Arne Vollan and Marcus Plutowski. Add an internal preference, EnhancedSecurityPlatformDefaultEnabled, that makes EnhancedSecurity the default for WebViews. It is off by default on all platforms, so this change has no effect until it is enabled. A follow-up will enable it on selected platforms. When enabled, the default applies regardless of securityRestrictionMod. Fichiers : Source/WTF/Scripts/Preferences/UnifiedWebPreferences.yaml. @@ -2102,6 +2102,17 @@ EncryptedMediaAPIEnabled: sharedPreferenceForWebProcess&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 10/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-10</guid>
@@ -390,6 +401,6 @@
       <pubDate>Sat, 12 Sep 2026 20:29:00 +0000</pubDate>
       <description>&lt;p&gt;Le flux quotidien est prêt. Une édition ne sera ajoutée que lorsqu’une trouvaille pertinente sera détectée.&lt;/p&gt;</description>
     </item>
-    <lastBuildDate>Sat, 10 Oct 2026 11:16:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:27:58 +0000</lastBuildDate>
   </channel>
 </rss>
