@@ -27,318 +27,299 @@
       <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/ugreen-indoor-cam/"&gt;&lt;strong&gt;Ugreen Group Limited — UGREEN Indoor Cam&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : ugreen, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Ugreen Group Limited · Produit : UGREEN Indoor Cam · Family SKU : ID500 Pro 64GB · Family Variant SKU : ID500 Plus · Certificate ID : CSA2655YMAT56102-50 · Certified Date : 10/16/2026 · Specification Version : 1.5.1 · Transport Interface : Wi-Fi&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Veille ciblée — quotidien — 22/10/2026</title>
-      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
-      <guid isPermaLink="false">daily:2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 10:16:43 +0000</pubDate>
-      <description>&lt;p&gt;5 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
-&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/77753"&gt;&lt;strong&gt;PR #77753 — [css-fonts] Scale the medium font size with the user&amp;#x27;s text size under on macOS&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 07231e84785f1f842eb01e1169a69c6241702618 [css-fonts] Follow the macOS text size setting under https://bugs.webkit.org/show_bug.cgi?id=328299 rdar://190595194 Reviewed by NOBODY (OOPS!). Pages with content=&amp;quot;scale&amp;quot; already scale medium with the user&amp;#x27;s text size on iOS and visionOS. This does the same on macOS, using the same text scale factor: the Body text style size for the user&amp;#x27;s content size category divided by the Body size at the default category, snapped to the same 7 values. The web process cannot read the macOS setting, so the UI process reads it with _AXSCopyPreferredContentSizeCategoryName() and sends the category name when the &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/76920"&gt;&lt;strong&gt;PR #76920 — AX: add SPI to enable iOS Smart Invert to query if the page is dark and tell the page when it&amp;#x27;s being inverted&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : open Signaux : ios_tba, xros_tba, wk_ios_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 78f79d868a91d664aaf1057ee96655615f650b1f AX: add SPI to enable iOS Smart Invert to query if the page is dark and tell the page when it&amp;#x27;s being inverted https://bugs.webkit.org/show_bug.cgi?id=327434 rdar://189936988 Reviewed by NOBODY (OOPS!). Currently, the iOS Smart Invert feature infers the page&amp;#x27;s background color via other APIs, and WebKit relies on the system setting to expose whether the page is inverted via the media query. Instead, add SPI to make both directions clear and explicit: - The Smart Invert feature communicates to WebKit whether a particular web view is actually being inverted. WebKit then uses this to update the CSS i&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/77855"&gt;&lt;strong&gt;PR #77855 — [Remote Snapshotting] Add by-value serialization for display lists&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### c97f431f9c4524e0d38d0379fdad97ba65f8a157 [Remote Snapshotting] Add by-value serialization for display lists https://bugs.webkit.org/show_bug.cgi?id=328428 rdar://190687718 Reviewed by NOBODY (OOPS!). To print embedded PDFs as vectors, the GPU process will send a completed remote snapshot to a dedicated print process. A display list can&amp;#x27;t be sent today: the GPU process rebuilds it from RemoteGraphicsContext messages, and its items hold objects that live in the GPU process, such as fonts and image buffers, and placeholders whose functions draw other frames of the snapshot. Add DisplayListData, which holds a display list and the display lis&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/commit/711cc1735d4190ff588798d60457c139bd074578"&gt;&lt;strong&gt;[Cocoa] CoreGraphics draws uninitialized blurred areas for a blur style&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 5/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Commit 711cc17 — 1 fichier(s) pertinent(s) Signaux : transparency.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;[Cocoa] CoreGraphics draws uninitialized blurred areas for a blur style https://bugs.webkit.org/show_bug.cgi?id=328165 rdar://190254152 Reviewed by Matt Woodrow. TransparencyLayerContextSwitcher nests a transparency layer for each CGStyle filter. When an effect has outsets, such as blur, the filter region extends beyond the imageRect. WebKit fills the imageRect with the target element&amp;#x27;s drawing, but CoreGraphics may modify pixels within the imageRect and can also populate the filterRegion, which. Fichiers : Source/WebCore/platform/graphics/TransparencyLayerContextSwitcher.cpp. @@ -55,10 +55,15 @@ void TransparencyLayerContextSwitcher::beginCl&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Apple Pay et Wallet — France&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://theapplewiki.com/wiki/Wallet_Payment_Networks"&gt;&lt;strong&gt;Wallet Payment Networks - The Apple Wiki&lt;/strong&gt;&lt;/a&gt; — &lt;strong&gt;à confirmer&lt;/strong&gt;&lt;br&gt;The Apple Wiki — Wallet Payment Networks · score 8/15 · confiance à confirmer&lt;br&gt;&lt;em&gt;Élément modifié. Page modifiée Signaux : apple, wallet, wallet payment networks.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Wallet Payment Networks - The Apple Wiki Jump to content Toggle search Search Toggle menu 6.7K 2.7K 4.2K 337.4K Navigation Main page Ground rules Community portal Recent changes Random page Help Discord Special pages Upload file Sections Devices Filesystem Firmware Firmware keys Jailbreak Protocols Timeline Toggle preferences menu Couldn&amp;#x27;t load preferences. Check your connection and try again. Retry Toggle personal menu Not logged in Log in or create an account to edit The Apple Wiki. user-interface-preferences Personal tools Create account Log in Wallet Payment Networks From The Apple Wiki Share this page Views Read View source View history &lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-368/</link>
+      <guid isPermaLink="false">finding:a7eacd856470f207c826602b3a1a2f7bc6e9ebea56c5ce2c22edff01f8c95288</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-368/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049628 (Philips) · Certificate ID : CSA265BWMAT56316-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Veille ciblée — quotidien — 21/10/2026</title>
-      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
-      <guid isPermaLink="false">daily:2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 10:13:57 +0000</pubDate>
-      <description>&lt;p&gt;6 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
-&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/77158"&gt;&lt;strong&gt;PR #77158 — Add a preference to enable EnhancedSecurity by default for system apps&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;WebKit · score 11/15 · confiance élevée&lt;br/&gt;&lt;em&gt;Élément modifié. Pull request, état : closed Signaux : apple, ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 2b4cd37f9d483e91ec0282b7d33cdf51117fd0cc Add a preference to enable EnhancedSecurity by default for system apps https://bugs.webkit.org/show_bug.cgi?id=327709 rdar://190130548 Reviewed by Per Arne Vollan. Add an internal preference, EnhancedSecurityEnabledByDefaultForSystemApps, that makes EnhancedSecurity the default for WebViews in system apps: Apple apps that ship with the OS, excluding Safari and web apps. It is off by default, so this change has no effect until it is enabled. It can be enabled for testing with the WebKitDebugEnhancedSecurityEnabledByDefaultForSystemApps user default. Also add the opt-out mentioned in 323340@main. A &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/77753"&gt;&lt;strong&gt;PR #77753 — [css-fonts] Scale the medium font size with the user's text size under on macOS&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;WebKit · score 11/15 · confiance élevée&lt;br/&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : apple, ios_tba, mac_tba, xros_tba, wk_ios_tba, wk_mac_tba, wk_xros_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 07231e84785f1f842eb01e1169a69c6241702618 [css-fonts] Follow the macOS text size setting under https://bugs.webkit.org/show_bug.cgi?id=328299 rdar://190595194 Reviewed by NOBODY (OOPS!). Pages with content="scale" already scale medium with the user's text size on iOS and visionOS. This does the same on macOS, using the same text scale factor: the Body text style size for the user's content size category divided by the Body size at the default category, snapped to the same 7 values. The web process cannot read the macOS setting, so the UI process reads it with _AXSCopyPreferredContentSizeCategoryName() and sends the category name when the &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/77659"&gt;&lt;strong&gt;PR #77659 — [Cocoa] Add a testing hook to make it possible to test WebKit's capture permission prompt&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;WebKit · score 8/15 · confiance élevée&lt;br/&gt;&lt;em&gt;Nouvel élément. Pull request, état : closed Signaux : ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### c67dfb7221437353da3b82bd4a801af64988469e [Cocoa] Add a testing hook to make it possible to test WebKit's capture permission prompt https://bugs.webkit.org/show_bug.cgi?id=328209 rdar://190525284 Reviewed by Jer Noble. When a UI delegate answers a getUserMedia request with WKPermissionDecisionPrompt, WebKit shows its own NSAlert or UIAlertController. API tests can't press its buttons, so none of that path is tested. Add -[WKWebView _setMediaCapturePermissionPromptHandlerForTesting:]. While a handler is set, the prompt isn't shown. The handler instead gets a _WKMediaCapturePermissionPromptForTesting with the prompt's title and button title&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/77704"&gt;&lt;strong&gt;PR #77704 — Refactoring: Introducing ENABLE(LIB_JSC_TOOLS).&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;WebKit · score 7/15 · confiance élevée&lt;br/&gt;&lt;em&gt;Nouvel élément. Pull request, état : closed Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 4d44245d61b1bc030ff8290a7e721da62c6100af Refactoring: Introducing ENABLE(LIB_JSC_TOOLS). https://bugs.webkit.org/show_bug.cgi?id=328255 rdar://190554248 Reviewed by Justin Michaud and Vassili Bykov. This is so that we don't have to continually do this everywhere: `#if (OS(MACOS) || USE(APPLE_INTERNAL_SDK)) &amp;amp;&amp;amp; !PLATFORM(MACCATALYST) &amp;amp;&amp;amp; !PLATFORM(IOS_FAMILY_SIMULATOR)` No new tests because this is a refactoring change only. There is no behavior change. * Source/JavaScriptCore/corpse/CorpseAddress.h: * Source/JavaScriptCore/corpse/CorpseByteParser.cpp: * Source/JavaScriptCore/corpse/CorpseByteParser.h: * Source/JavaScriptCore/corpse/CorpseC&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=BELKIN+INTERNATIONAL+INC"&gt;&lt;strong&gt;RRA — Belkin : BPD011&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br/&gt;&lt;em&gt;Élément modifié. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : belkin, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : BPD011. Appareil : BoostCharge Slim Magnetic Power Bank 5K with Stand. Société : BELKIN INTERNATIONAL INC. Type : 적합등록. Fabrication : 중국. Homologation : 2026-10-21.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://stephmouss.github.io/veille-flux/ncc/CCAR26LP1650T4.html"&gt;&lt;strong&gt;NCC — Belkin : (申請者申請保密) (CCAR26LP1650T4)&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Taïwan — NCC · confiance moyenne&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Type de produit&lt;/th&gt;&lt;td&gt;Type non traduit — voir la désignation originale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Modèle&lt;/th&gt;&lt;td&gt;(申請者申請保密)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Marque&lt;/th&gt;&lt;td&gt;(申請者申請保密)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification NCC&lt;/th&gt;&lt;td&gt;CCAR26LP1650T4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Date d’homologation&lt;/th&gt;&lt;td&gt;2026-10-21&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification valide&lt;/th&gt;&lt;td&gt;Oui&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Demandeur (nom officiel)&lt;/th&gt;&lt;td&gt;Belkin International, Inc.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Fabricant&lt;/th&gt;&lt;td&gt;Non renseigné dans l’export NCC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Désignation originale&lt;/th&gt;&lt;td&gt;(申請者申請保密)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;small&gt;Aucune photo publique récupérée pour cette fiche. L’export NCC ne contient pas de photos.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Source des faits : &lt;a href="https://api.ncc.gov.tw/uploaddowndoc?file=datagov%2Fvv_IPCCDB.json&amp;amp;filedisplay=vv_IPCCDB.json&amp;amp;flag=doc"&gt;export officiel NCC&lt;/a&gt;. Les catégories traduites ne constituent pas une identification commerciale. Une homologation ne garantit ni un produit inédit ni sa disponibilité en France.&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-367/</link>
+      <guid isPermaLink="false">finding:d21cdff7b0b78497223acbb9c25c9192a25ee118fe044f63d7484a9d7759fdae</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-367/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049627 (Philips) · Certificate ID : CSA265BVMAT56315-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-28/</link>
-      <guid isPermaLink="false">finding:fccfc06c3c0b69c30f0df19cbfa857772926d778a744cf9188e2700143bf5e99</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-28/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038566 · Certificate ID : CSA2656TMAT56133-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-366/</link>
+      <guid isPermaLink="false">finding:f007acc242ad65ecb769d71c2d59aad1b22af3524a720a039f73fd1179ee2b80</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-366/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049626 (Philips) · Certificate ID : CSA265BUMAT56314-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-27/</link>
-      <guid isPermaLink="false">finding:70860e05389978eb1494c71003f1bf122642381ceac9e892642b267f4843dc45</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-27/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038560 · Certificate ID : CSA2656SMAT56132-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-365/</link>
+      <guid isPermaLink="false">finding:8e88bbaf8c0868e299e1216960dd7779f0265d48033e5b6b45ccafa70dadf07d</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-365/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049625 (Philips) · Certificate ID : CSA265BTMAT56313-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-26/</link>
-      <guid isPermaLink="false">finding:6bb3b1f2f902ba06bbdbbaf5d25d554bbcaeb8d145f78cc200e5c0ea5145a6cb</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-26/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038554 · Certificate ID : CSA2656RMAT56131-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-364/</link>
+      <guid isPermaLink="false">finding:0f426960e0123e3d52be578b5070ae0ece8b0fd868c5dc406a9c0b7cb8c6c5dc</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-364/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049624 (Philips) · Certificate ID : CSA265BSMAT56312-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-25/</link>
-      <guid isPermaLink="false">finding:1f4b09838943d812ddba71410859d93cb12db2f34a31c9d98bac77339199284a</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-25/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038548 · Certificate ID : CSA2656QMAT56130-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-363/</link>
+      <guid isPermaLink="false">finding:6fd1a00ec8964a8303f377b90b570e7ae122d21122fd86e94e1bd0f568093e44</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-363/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049623 (Philips) · Certificate ID : CSA265BRMAT56311-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-24/</link>
-      <guid isPermaLink="false">finding:58a0fd444586b2e3d757123446693f4ee3c9534d04fe72a9c1d62262b9a8a21d</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-24/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038540 · Certificate ID : CSA2656PMAT56129-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-362/</link>
+      <guid isPermaLink="false">finding:7868115fe5325153edeec53dead126995d454de7ae01ec5dab0b0214e2d4d5f0</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-362/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049622 (Philips) · Certificate ID : CSA265BQMAT56310-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-23/</link>
-      <guid isPermaLink="false">finding:77369503e66074c74c6148be488e5dc523255c3a9b3032a6b8d182b08fe6daac</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-23/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038534 · Certificate ID : CSA2656OMAT56128-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-361/</link>
+      <guid isPermaLink="false">finding:8c2112491cb10fc1404c1c429a7102a662fa21888d925d1fd7de67a63f653b7f</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-361/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049621 (Philips) · Certificate ID : CSA265BPMAT56309-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-22/</link>
-      <guid isPermaLink="false">finding:78179699d84c347b317e6ba72cb4487b7cd4f567299fd986b31d8afc9cc2f907</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-22/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038551 · Certificate ID : CSA2656NMAT56127-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-256/</link>
+      <guid isPermaLink="false">finding:edb7f2e5f3957bffe1e2f6fbbaf4c5eacb0ed0466e56a79dedfba576e33514a6</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-256/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049620 (Philips) · Certificate ID : CSA265BOMAT56308-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-21/</link>
-      <guid isPermaLink="false">finding:1e5022fdd656b8b4734054bbf38edb3945b34f135bf0868a1cdc31197f14fa31</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-21/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038537 · Certificate ID : CSA2656MMAT56126-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-255/</link>
+      <guid isPermaLink="false">finding:99d3be5f5be22934476cd4d7aa9b905bd817ad35da582169e4537c88c4f0a8dc</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-255/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049619 (Philips) · Certificate ID : CSA265BNMAT56307-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-20/</link>
-      <guid isPermaLink="false">finding:eaea8f88063d83e90a484b5bb462dbe1a9f31c1194c15bb548d1630d8723864c</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-20/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038556 · Certificate ID : CSA2656LMAT56125-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-254/</link>
+      <guid isPermaLink="false">finding:c5baa4a9bf351822ea18e15c5c7d0f0295223d44febb61f312b03eb75f80f0cb</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-strip-full-color-254/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED strip – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED strip – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049618 (Philips) · Certificate ID : CSA265BMMAT56306-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-19/</link>
-      <guid isPermaLink="false">finding:af92f08505f0ef9f1aa8e3f93aecfb01da6ec8fe4f12cafa5bfd909d9f2475c4</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-19/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038558 · Certificate ID : CSA2656KMAT56124-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-88/</link>
+      <guid isPermaLink="false">finding:26e35748a53b886d436c77848e71cc74653d57559c6825a56238cc49b06a22f7</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-88/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049617 (Philips) · Certificate ID : CSA265BLMAT56305-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-18/</link>
-      <guid isPermaLink="false">finding:7c9a641a1a924c689bf84ccbd2df98f4cd51cf1e748560e9f55f7e18fef3a07b</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-18/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038550 · Certificate ID : CSA2656JMAT56123-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-87/</link>
+      <guid isPermaLink="false">finding:a2c6ee2746f7178b379e57353e3308f2bc36249abdd71e8f40c88d9b4f255fde</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-87/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049616 (Philips) · Certificate ID : CSA265BKMAT56304-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-17/</link>
-      <guid isPermaLink="false">finding:a57004a05868ef24384efd11fee3eaa44ea9c6a18f84d34ae2b826f89ca950c0</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-17/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038553 · Certificate ID : CSA2656IMAT56122-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-86/</link>
+      <guid isPermaLink="false">finding:0bc9ade91ce219787de05003516987734f8c22d510bb696a224d7dd9f9c18752</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-86/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049615 (Philips) · Certificate ID : CSA265BJMAT56303-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-16/</link>
-      <guid isPermaLink="false">finding:a04875b5065647b5815e45bfd8dc7ceb4554fd4879bbd92dd71bdcb06d056448</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-16/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038542 · Certificate ID : CSA2656HMAT56121-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-85/</link>
+      <guid isPermaLink="false">finding:794e514b7065df442aa35c24095f8b614414a264139591a24d2aac9b91ed7df7</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-85/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049614 (Philips) · Certificate ID : CSA265BIMAT56302-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-15/</link>
-      <guid isPermaLink="false">finding:7d2a8344148ab8014dc9a729786cba73e7e0893143cddf1018c5f876cc83058d</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-15/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038546 · Certificate ID : CSA2656GMAT56120-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-84/</link>
+      <guid isPermaLink="false">finding:007ba0f5856b30be4e35be9e3d1209fdb405e876b22a47b9a7ea0197c0ce4b06</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-84/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049613 (Philips) · Certificate ID : CSA265BHMAT56301-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-14/</link>
-      <guid isPermaLink="false">finding:0162f111fed8b252d8db66f9cb520a31c0c4a10c7b35d4f8e26da01151f7fff8</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-14/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038544 · Certificate ID : CSA2656FMAT56119-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-83/</link>
+      <guid isPermaLink="false">finding:6f4e70688c44e8663a35870d94bd48cc4a13a05a2e0feb92663a4d10d54261ce</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-83/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049612 (Philips) · Certificate ID : CSA265BGMAT56300-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-13/</link>
-      <guid isPermaLink="false">finding:dd8ea0b523bb8411d73abd38bb1dae98d1dc55a24684fcc0c52d6cffada7f656</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-13/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038536 · Certificate ID : CSA2656EMAT56118-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-82/</link>
+      <guid isPermaLink="false">finding:491da0c3a54774cd3a853a6d98f2caf4451381f59748fdcb9dc9001beb94d6d7</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-82/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049611 (Philips) · Certificate ID : CSA265BFMAT56299-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-12/</link>
-      <guid isPermaLink="false">finding:73574b181409191bde12f0db714eb849e179d50bfd2c72852f61292a64722ec4</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-12/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038539 · Certificate ID : CSA2656DMAT56117-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-81/</link>
+      <guid isPermaLink="false">finding:639f2c36365ce32d19b6c4eaaafc16640270461347a7cff209822363beddc00b</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-outdoor-led-luminaire-full-color-81/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ outdoor LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ outdoor LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049610 (Philips) · Certificate ID : CSA265BEMAT56298-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-11/</link>
-      <guid isPermaLink="false">finding:560f195c4d00750187888c897e14f9bb7516a86ebefa9158589213d9b2cebcfd</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-11/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038555 · Certificate ID : CSA2656CMAT56116-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-365/</link>
+      <guid isPermaLink="false">finding:a29c05748640e62517277c5036030ea38aa554e25e0633b74bfe84cb13a5762e</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-365/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049630 (Philips) · Certificate ID : CSA265BDMAT56297-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-10/</link>
-      <guid isPermaLink="false">finding:8ff0eb46c3a825742ba078b1e45ff6441524095d1f9e83ce73fd8177a8d76b0c</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-10/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038559 · Certificate ID : CSA2656BMAT56115-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-364/</link>
+      <guid isPermaLink="false">finding:a1b3dff8b317e8d5212a0cdac8d3ca155fe4ef8d174ef63b9854398dcee55637</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-364/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049524 (Philips) · Certificate ID : CSA265BCMAT56296-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-9/</link>
-      <guid isPermaLink="false">finding:599ee5970196bbf161be0da4f9e4c2fd8411d0ee004f869edd4bc715a89dd0e2</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-9/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038557 · Certificate ID : CSA2656AMAT56114-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-363/</link>
+      <guid isPermaLink="false">finding:30d798b044505439c2ffb2c7f7dbd1fbd22eac8d4edafbee64a0d866bc979f84</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-363/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049609 (Philips) · Certificate ID : CSA265BBMAT56295-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-8/</link>
-      <guid isPermaLink="false">finding:ccc05b593224c077ae64acf5c10d666ef0db539825923dd7a466cbfcef4fda46</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-8/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038549 · Certificate ID : CSA26569MAT56113-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-362/</link>
+      <guid isPermaLink="false">finding:1ae7f96c9106bd4e7f392337244ec73befaece47472604d6305ef01e96b36b5b</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-362/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049608 (Philips) · Certificate ID : CSA265BAMAT56294-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-7/</link>
-      <guid isPermaLink="false">finding:be0f1d31f8f654549dcdd28b2b319c197190e1eadc681be37669cf40f26d8ec8</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-7/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038541 · Certificate ID : CSA26568MAT56112-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-361/</link>
+      <guid isPermaLink="false">finding:da2736ac88b7b0aa5f7f4596e1d90a22dafd288aeea4aeeff728e03bbdb5073a</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-361/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049607 (Philips) · Certificate ID : CSA265B9MAT56293-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-6/</link>
-      <guid isPermaLink="false">finding:aec04794b3b3ebce0c9bb26912b9d8bea9cbc22369cad5957e4f68667431090f</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-6/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038545 · Certificate ID : CSA26567MAT56111-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-354/</link>
+      <guid isPermaLink="false">finding:e68e38219be982cf59f957ea3342167d356b9e7f195e8c64d55167d010163fb4</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-354/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290047913A (Philips) · Certificate ID : CSA265B8MAT56292-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-5/</link>
-      <guid isPermaLink="false">finding:17b5f16999baafef61f9835d31e76bf95040666d41965005ee6df6a558a43458</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-5/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038543 · Certificate ID : CSA26566MAT56110-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-353/</link>
+      <guid isPermaLink="false">finding:86e336b9a8d7bf8bdb59376780f6840a7df235c7db39fcac4d3ea16b9b7e7abb</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-353/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290049606 (Philips) · Certificate ID : CSA265B7MAT56291-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-4/</link>
-      <guid isPermaLink="false">finding:e442ba6a3274ca4d5a68d924c7be8ba419db25fe3a791db221eba8244b6feb76</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-4/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038547 · Certificate ID : CSA26565MAT56109-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED luminaire – Full color</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-352/</link>
+      <guid isPermaLink="false">finding:623f867f3b39543f1ae3db65b7ab7ff2fd832ca7f323b3761bec6286b5672ea6</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-luminaire-full-color-352/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED luminaire – Full color&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED luminaire – Full color · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290047788 (Philips) · Certificate ID : CSA265B6MAT56290-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-3/</link>
-      <guid isPermaLink="false">finding:fe78446635c0ecaa99795a4a12b38823765d9aef7a082a910fd7d5236515ad65</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-3/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038552 · Certificate ID : CSA26564MAT56108-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-425/</link>
+      <guid isPermaLink="false">finding:098bb326cf3da970eed7c57af6916cb528b56e2884894c16ddea1d209847a721</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-425/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030676B (Philips) · Certificate ID : CSA265B5MAT56289-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-2/</link>
-      <guid isPermaLink="false">finding:823a1679501d39e258d87e9cde4651d7d09728eb8e61b70a8856a28e08d518d4</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-2/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038538 · Certificate ID : CSA26563MAT56107-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-424/</link>
+      <guid isPermaLink="false">finding:c0cd48bcb8eb409437a6cc2f64e32906e8e643097c832285c43ec882e4f6a654</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-424/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030089B (Philips) · Certificate ID : CSA265B4MAT56288-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129/</link>
-      <guid isPermaLink="false">finding:cd50a4ca3f34dbd1662cf5db0fc676da6d3dc5a6d9e9bc5beaa8894c5ae1a6c2</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 10/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified, thread.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Certificate ID : CSA26562MAT56106-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1 · Transport Interface : Thread, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-423/</link>
+      <guid isPermaLink="false">finding:792f1f26df04f5cda04cf0b4dd2e6df3589ccb19d5bef5e28f7aabfa27c0bf18</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-423/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030187B (Philips) · Certificate ID : CSA265B3MAT56287-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-41/</link>
-      <guid isPermaLink="false">finding:5f46a40ee70e77c648678bc321234070c2082c176a2bbe1ac9c7d1e7f802dc89</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-41/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290042696 · Certificate ID : CSA26576MAT56146-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-422/</link>
+      <guid isPermaLink="false">finding:000e2807728b489fde5285f8d31602ba3cd5ff1853135acf88f2b23bfa4cf28e</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-422/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030186B (Philips) · Certificate ID : CSA265B2MAT56286-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-40/</link>
-      <guid isPermaLink="false">finding:0f0ac4359ba9369deb97423b608d409a0e95c77af0f8042f3f5ddeaf9667d24d</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-40/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290042357 · Certificate ID : CSA26575MAT56145-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-421/</link>
+      <guid isPermaLink="false">finding:72fd37b2709e9d108aaf66de6493ec6e94f0932bb1498b74b8e6a8b826f74d5b</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-421/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030185B (Philips) · Certificate ID : CSA265B1MAT56285-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-39/</link>
-      <guid isPermaLink="false">finding:7996e2226827cc3dc68dde23e776c1016d66cb2620e94c2592f872522ba3b9b7</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-39/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290042356 · Certificate ID : CSA26574MAT56144-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-420/</link>
+      <guid isPermaLink="false">finding:82dca51023eef510e32f7b88f51480c04c737609e947d25114dc80875ec55aaf</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-420/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030183B (Philips) · Certificate ID : CSA265B0MAT56284-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-38/</link>
-      <guid isPermaLink="false">finding:60927a94ef13d13e31f7412e17c9184cfd4cd0abb132f8120be6dea73f425e73</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-38/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290042355 · Certificate ID : CSA26573MAT56143-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-419/</link>
+      <guid isPermaLink="false">finding:046edf82a93ed8024fd41b8fabd95a898312acaa6457492cf6667ad7c5a8db60</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-419/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030182B (Philips) · Certificate ID : CSA265AZMAT56283-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-37/</link>
-      <guid isPermaLink="false">finding:2e1de9d20797cc9a3f178195d8773e4f4b6c1dea0ed3ac12d445c8c718bc7306</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-37/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290042354 · Certificate ID : CSA26572MAT56142-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-418/</link>
+      <guid isPermaLink="false">finding:450bb47d9960d7c5117a037ae7192c7c701cac94bcf5ccb6164d8d2dd57390ae</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-418/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030181B (Philips) · Certificate ID : CSA265AYMAT56282-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-36/</link>
-      <guid isPermaLink="false">finding:f2cd3b71e7cd44e494ec9b2e5871bc9722ade53692be6dd5e2cb782d3bd0fb4b</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-36/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038565 · Certificate ID : CSA26571MAT56141-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-417/</link>
+      <guid isPermaLink="false">finding:00fb76bd74b890fecdd7b72b405ec8ed2dc91a0b4309ca6baeb616611100e1b2</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-417/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030180B (Philips) · Certificate ID : CSA265AXMAT56281-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-35/</link>
-      <guid isPermaLink="false">finding:7d57d47c773d3a45932ac2e9d21cc42543bcf47a57387c0dbbb2d6047fa9a30a</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-35/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038568 · Certificate ID : CSA26570MAT56140-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-416/</link>
+      <guid isPermaLink="false">finding:f5fb69353b50ed7aa5493dc465352255238eb15295381663431633ff04eca0bc</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-416/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030179B (Philips) · Certificate ID : CSA265AWMAT56280-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-34/</link>
-      <guid isPermaLink="false">finding:96e3a46e95a105052b364ab32bf5e7b182c2e7374a9d0ffec2d3d7c8852f0632</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-34/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038562 · Certificate ID : CSA2656ZMAT56139-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-415/</link>
+      <guid isPermaLink="false">finding:78303a7409da8c1d1ed9542a898af2eb89a30ab22c6908ecd6964d01cadab486</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-415/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030178B (Philips) · Certificate ID : CSA265AVMAT56279-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-33/</link>
-      <guid isPermaLink="false">finding:3f994cc9c8c46d9a153e5185debab1ba8e6b04bd40542a842fd545135681bdb7</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-33/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038569 · Certificate ID : CSA2656YMAT56138-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-414/</link>
+      <guid isPermaLink="false">finding:15aead4b1ddaebe7daf0c45a7115b45bfab147684c4a565a5517d5aaa9eb1541</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-414/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030177B (Philips) · Certificate ID : CSA265AUMAT56278-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-32/</link>
-      <guid isPermaLink="false">finding:929ff2acec2658bcc4475b306de4a0eeaf7a71ff451d0f6b43b2dfee721b8c76</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-32/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038564 · Certificate ID : CSA2656XMAT56137-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-413/</link>
+      <guid isPermaLink="false">finding:1471379c4a73de3759d4f3cabb9acaafd81f97aba151174c6a1022912dcd7b49</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-413/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030176B (Philips) · Certificate ID : CSA265ATMAT56277-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-31/</link>
-      <guid isPermaLink="false">finding:51c9e7cb219d0d042f89b75503d1692b00d07d58dbbdf492677c98489b24651f</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-31/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038567 · Certificate ID : CSA2656WMAT56136-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-412/</link>
+      <guid isPermaLink="false">finding:0b32edcb64eae22a98baef4f907410072c64fc9be3f9e75f6af59fcff36fd3a3</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-412/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030175B (Philips) · Certificate ID : CSA265ASMAT56276-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Signify Netherlands B.V. — Philips Hue Light 0129</title>
-      <link>https://csa-iot.org/csa_product/philips-hue-light-0129-30/</link>
-      <guid isPermaLink="false">finding:cd63286c2740c00db79b28ec1eaeb0abe48ad7e72c5a7cd403501396d8eff388</guid>
-      <pubDate>Tue, 20 Oct 2026 10:03:58 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/philips-hue-light-0129-30/"&gt;&lt;strong&gt;Signify Netherlands B.V. — Philips Hue Light 0129&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : philips hue, signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : Philips Hue Light 0129 · Family SKU : 9290038535 · Family Variant SKU : 9290038561 · Certificate ID : CSA2656VMAT56135-24 · Certified Date : 10/19/2026 · Specification Version : 1.4.1&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-411/</link>
+      <guid isPermaLink="false">finding:2311bd1dfbb8fee972911458b3a5ebfab60675b316abfbcf4e7cc108e648ce01</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-411/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030174B (Philips) · Certificate ID : CSA265ARMAT56275-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
-    <lastBuildDate>Thu, 22 Oct 2026 10:16:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 10:17:01 +0000</lastBuildDate>
   </channel>
 </rss>
