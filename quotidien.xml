@@ -6,27 +6,6 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
-      <title>Ugreen Group Limited — HomeAgent HA100</title>
-      <link>https://csa-iot.org/csa_product/homeagent-ha100/</link>
-      <guid isPermaLink="false">finding:b3ff96ea810e1d030c33367b752f250f823d005ce48daa5f44fe39723fc6371a</guid>
-      <pubDate>Thu, 22 Oct 2026 10:09:13 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/homeagent-ha100/"&gt;&lt;strong&gt;Ugreen Group Limited — HomeAgent HA100&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : ugreen, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Ugreen Group Limited · Produit : HomeAgent HA100 · Certificate ID : CSA26045SWC60283-M2 · Certified Date : 10/16/2026 · Specification Version : 1.4&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Ugreen Group Limited — UGREEN Indoor Cam</title>
-      <link>https://csa-iot.org/csa_product/ugreen-indoor-cam-2/</link>
-      <guid isPermaLink="false">finding:f450179d2964ccb278f08a6eae2ec71b72dc137dc72f22ccb403f3b5372e595d</guid>
-      <pubDate>Thu, 22 Oct 2026 10:09:13 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/ugreen-indoor-cam-2/"&gt;&lt;strong&gt;Ugreen Group Limited — UGREEN Indoor Cam&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : ugreen, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Ugreen Group Limited · Produit : UGREEN Indoor Cam · Family SKU : ID500 Pro 64GB · Family Variant SKU : ID500 Plus · Certificate ID : CSA2655XMAT56101-50 · Certified Date : 10/16/2026 · Specification Version : 1.5.1 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Ugreen Group Limited — UGREEN Indoor Cam</title>
-      <link>https://csa-iot.org/csa_product/ugreen-indoor-cam/</link>
-      <guid isPermaLink="false">finding:e7357bdd9a186d086672c88baa5d2546e33ec95dd0dde479bd251200e2b9d322</guid>
-      <pubDate>Thu, 22 Oct 2026 10:09:13 +0000</pubDate>
-      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/ugreen-indoor-cam/"&gt;&lt;strong&gt;Ugreen Group Limited — UGREEN Indoor Cam&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : ugreen, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Ugreen Group Limited · Produit : UGREEN Indoor Cam · Family SKU : ID500 Pro 64GB · Family Variant SKU : ID500 Plus · Certificate ID : CSA2655YMAT56102-50 · Certified Date : 10/16/2026 · Specification Version : 1.5.1 · Transport Interface : Wi-Fi&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
-    </item>
-    <item>
       <title>Signify Netherlands B.V. — WiZ LED strip – Full color</title>
       <link>https://csa-iot.org/csa_product/wiz-led-strip-full-color-368/</link>
       <guid isPermaLink="false">finding:a7eacd856470f207c826602b3a1a2f7bc6e9ebea56c5ce2c22edff01f8c95288</guid>
@@ -320,6 +299,27 @@
       <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
       <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-411/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030174B (Philips) · Certificate ID : CSA265ARMAT56275-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
     </item>
-    <lastBuildDate>Sat, 24 Oct 2026 09:36:03 +0000</lastBuildDate>
+    <item>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-410/</link>
+      <guid isPermaLink="false">finding:c7a562d01d88139f68049940ad41cf52e5eb2ea2f705e32e2a0a1e86946c5052</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-410/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030173B (Philips) · Certificate ID : CSA265AQMAT56274-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-409/</link>
+      <guid isPermaLink="false">finding:5b1b9dc3d2a6691201717d3b74359832293eedf71cb3afc1aa04fa3044fc3c6c</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-409/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030172B (Philips) · Certificate ID : CSA265APMAT56273-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Signify Netherlands B.V. — WiZ LED lamp – Tunable white</title>
+      <link>https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-408/</link>
+      <guid isPermaLink="false">finding:0e2fc7154fede3ad6084a89399d83f400322133a06d185000cd81879541fedef</guid>
+      <pubDate>Fri, 23 Oct 2026 10:11:25 +0000</pubDate>
+      <description>&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;a href="https://csa-iot.org/csa_product/wiz-led-lamp-tunable-white-408/"&gt;&lt;strong&gt;Signify Netherlands B.V. — WiZ LED lamp – Tunable white&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Connectivity Standards Alliance — Matter · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche individuelle du registre officiel CSA Signaux : signify, certified.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Fabricant : Signify Netherlands B.V. · Produit : WiZ LED lamp – Tunable white · Family SKU : 9290047097 (Philips) · Family Variant SKU : 9290030098A (Philips) · Certificate ID : CSA265AOMAT56272-24 · Certified Date : 10/22/2026 · Specification Version : 1.4 · Transport Interface : Wi-Fi, Bluetooth&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description>
+    </item>
+    <lastBuildDate>Sun, 25 Oct 2026 09:52:32 +0000</lastBuildDate>
   </channel>
 </rss>
