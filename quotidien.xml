@@ -6,6 +6,20 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 01/11/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 11:54:06 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/78821"&gt;&lt;strong&gt;PR #78821 — [Cocoa] Show a live capture preview in WebKit&amp;#x27;s capture permission prompt&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 12/15 · confiance élevée&lt;br&gt;&lt;em&gt;Élément modifié. Pull request, état : closed Signaux : apple, apple inc, ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 9849f9a7335d4b1225d562752da8950b951a83cb [Cocoa] Show a live capture preview in WebKit&amp;#x27;s capture permission prompt https://bugs.webkit.org/show_bug.cgi?id=329397 rdar://191280049 Reviewed by Jean-Yves Avenard. Add microphone and camera previews to the WebKit&amp;#x27;s Cocoa capture permission prompts, and add WKWebView SPI to allow the host application to configure and present the prompt. The new permission prompt is behind the new disabled-by-default runtime preference CaptureDevicePreviewInPromptEnabled. Also add new WKWebView SPI to make it possible for an API test to test the new permission prompt. The existing prompt tests are updated to us&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://threadgroup.org/Certified-Products"&gt;&lt;strong&gt;Thread — Nuki Smart Module&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Thread Group — produits certifiés · score 9/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Fiche détaillée du catalogue Thread, filtré sur les fabricants suivis. Une certification ne garantit pas un produit inédit. Signaux : nuki, certification, matter, thread.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Modèle/SKU : non renseigné. Thread : 1.4.0. Dernière certification : 14-September-2026. Écosystèmes : Matter.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=%EC%95%A0%ED%94%8C%EC%BD%94%EB%A6%AC%EC%95%84+%EC%9C%A0%ED%95%9C%ED%9A%8C%EC%82%AC"&gt;&lt;strong&gt;RRA — Apple : A3592&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : apple, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : A3592. Appareil : 특정소출력 무선기기(무선데이터통신시스템용 무선기기). Société : 애플코리아 유한회사. Type : 적합인증. Fabrication : 중국. Homologation : 2026-10-02.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 31/10/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-10-31</guid>
@@ -125,6 +139,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://stephmouss.github.io/veille-flux/ncc/CCAI265G0090T2.html"&gt;&lt;strong&gt;NCC — Apple : A3596 (CCAI265G0090T2)&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Taïwan — NCC · confiance moyenne&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Type de produit&lt;/th&gt;&lt;td&gt;Type non traduit — voir la désignation originale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Modèle&lt;/th&gt;&lt;td&gt;A3596&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Marque&lt;/th&gt;&lt;td&gt;APPLE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification NCC&lt;/th&gt;&lt;td&gt;CCAI265G0090T2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Date d’homologation&lt;/th&gt;&lt;td&gt;2026-10-27&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification valide&lt;/th&gt;&lt;td&gt;Oui&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Demandeur (nom officiel)&lt;/th&gt;&lt;td&gt;美商蘋果亞洲股份有限公司台灣分公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Fabricant&lt;/th&gt;&lt;td&gt;Non renseigné dans l’export NCC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Désignation originale&lt;/th&gt;&lt;td&gt;攜帶式平版電腦&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;small&gt;Aucune photo publique récupérée pour cette fiche. L’export NCC ne contient pas de photos.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Source des faits : &lt;a href="https://api.ncc.gov.tw/uploaddowndoc?file=datagov%2Fvv_IPCCDB.json&amp;amp;filedisplay=vv_IPCCDB.json&amp;amp;flag=doc"&gt;export officiel NCC&lt;/a&gt;. Les catégories traduites ne constituent pas une identification commerciale. Une homologation ne garantit ni un produit inédit ni sa disponibilité en France.&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
-    <lastBuildDate>Sat, 31 Oct 2026 11:02:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:54:06 +0000</lastBuildDate>
   </channel>
 </rss>
