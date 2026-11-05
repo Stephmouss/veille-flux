@@ -6,6 +6,19 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 05/11/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 13:16:09 +0000</pubDate>
+      <description>&lt;p&gt;4 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=Apple"&gt;&lt;strong&gt;RRA — Apple : fiche d’homologation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : apple, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA — champs de l’export officiel (date, type, appareil, modèle, société, pays) : 20261006, 적합인증, 특정소출력 무선기기(무선랜을 포함한 무선접속시스템용 무선기기(5150∼5350㎒, 5470∼5850㎒ 주파수 대역)), A3593, 애플코리아 유한회사, 중국&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=IKEA+of+Sweden+AB"&gt;&lt;strong&gt;RRA — IKEA : E2703&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : ikea, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : E2703. Appareil : SPEGELBLANKT. Société : IKEA of Sweden AB. Type : 적합등록. Fabrication : 스웨덴. Homologation : 2026-11-05.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=LOGITECH+Inc."&gt;&lt;strong&gt;RRA — Logitech : MR0146&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : logitech, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : MR0146. Appareil : 특정소출력 무선기기(무선데이터통신시스템용 무선기기). Société : LOGITECH Inc.. Type : 적합등록. Fabrication : 중국. Homologation : 2026-11-05.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=Orange+Music+Electronic+Co+Ltd"&gt;&lt;strong&gt;RRA — Orange : OBT-1&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : orange, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : OBT-1. Appareil : Orange Bluetooth Preamp. Société : Orange Music Electronic Co Ltd. Type : 적합등록. Fabrication : 영국. Homologation : 2026-11-05.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 04/11/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-11-04</guid>
@@ -194,6 +207,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://stephmouss.github.io/veille-flux/ncc/CCAI265G0090T2.html"&gt;&lt;strong&gt;NCC — Apple : A3596 (CCAI265G0090T2)&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Taïwan — NCC · confiance moyenne&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Type de produit&lt;/th&gt;&lt;td&gt;Type non traduit — voir la désignation originale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Modèle&lt;/th&gt;&lt;td&gt;A3596&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Marque&lt;/th&gt;&lt;td&gt;APPLE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification NCC&lt;/th&gt;&lt;td&gt;CCAI265G0090T2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Date d’homologation&lt;/th&gt;&lt;td&gt;2026-10-27&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification valide&lt;/th&gt;&lt;td&gt;Oui&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Demandeur (nom officiel)&lt;/th&gt;&lt;td&gt;美商蘋果亞洲股份有限公司台灣分公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Fabricant&lt;/th&gt;&lt;td&gt;Non renseigné dans l’export NCC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Désignation originale&lt;/th&gt;&lt;td&gt;攜帶式平版電腦&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;Nom dans le dossier FCC du même modèle :&lt;/strong&gt; Tablet Device.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aucune photo publique récupérée pour cette fiche. L’export NCC ne contient pas de photos.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://fccid.io/BCGA3596"&gt;Dossier FCC du même modèle — documents et photos&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Source des faits : &lt;a href="https://api.ncc.gov.tw/uploaddowndoc?file=datagov%2Fvv_IPCCDB.json&amp;amp;filedisplay=vv_IPCCDB.json&amp;amp;flag=doc"&gt;export officiel NCC&lt;/a&gt;. Les catégories traduites ne constituent pas une identification commerciale. Une homologation ne garantit ni un produit inédit ni sa disponibilité en France.&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
-    <lastBuildDate>Wed, 04 Nov 2026 13:05:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 13:16:09 +0000</lastBuildDate>
   </channel>
 </rss>
