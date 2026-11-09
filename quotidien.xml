@@ -6,6 +6,16 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 09/11/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 13:57:56 +0000</pubDate>
+      <description>&lt;p&gt;1 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/80123"&gt;&lt;strong&gt;PR #80123 — Support WebXR in additional configurations&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 7/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : apple, apple_internal_sdk.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 7509b6651be9a477504e9fa1cf7afc88c0694572 Support WebXR in additional configurations https://bugs.webkit.org/show_bug.cgi?id=330668 rdar://192214934 Reviewed by NOBODY (OOPS!). Remove some internal guards and allow WebXR to be used outside of Safari on visionOS * Source/WTF/wtf/PlatformEnableCocoa.h: * Source/WebKit/Platform/spi/Cocoa/Modules/CompositorServices_SPI/CompositorServicesSPI.h: Copied from Source/WebKit/WebKitSwift/WebXR/WKWebXRImmersiveSpaceHost.h. * Source/WebKit/Platform/spi/Cocoa/Modules/CompositorServices_SPI/module.modulemap: Added. * Source/WebKit/PlatformCocoa.cmake: * Source/WebKit/UIProcess/API/APIUIClient.h: (API::U&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 07/11/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-11-07</guid>
@@ -240,6 +250,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://stephmouss.github.io/veille-flux/ncc/CCAI265G0090T2.html"&gt;&lt;strong&gt;NCC — Apple : A3596 (CCAI265G0090T2)&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Taïwan — NCC · confiance moyenne&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Type de produit&lt;/th&gt;&lt;td&gt;Type non traduit — voir la désignation originale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Modèle&lt;/th&gt;&lt;td&gt;A3596&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Marque&lt;/th&gt;&lt;td&gt;APPLE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification NCC&lt;/th&gt;&lt;td&gt;CCAI265G0090T2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Date d’homologation&lt;/th&gt;&lt;td&gt;2026-10-27&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification valide&lt;/th&gt;&lt;td&gt;Oui&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Demandeur (nom officiel)&lt;/th&gt;&lt;td&gt;美商蘋果亞洲股份有限公司台灣分公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Fabricant&lt;/th&gt;&lt;td&gt;Non renseigné dans l’export NCC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Désignation originale&lt;/th&gt;&lt;td&gt;攜帶式平版電腦&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;Nom dans le dossier FCC du même modèle :&lt;/strong&gt; Tablet Device.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aucune photo publique récupérée pour cette fiche. L’export NCC ne contient pas de photos.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://fccid.io/BCGA3596"&gt;Dossier FCC du même modèle — documents et photos&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Source des faits : &lt;a href="https://api.ncc.gov.tw/uploaddowndoc?file=datagov%2Fvv_IPCCDB.json&amp;amp;filedisplay=vv_IPCCDB.json&amp;amp;flag=doc"&gt;export officiel NCC&lt;/a&gt;. Les catégories traduites ne constituent pas une identification commerciale. Une homologation ne garantit ni un produit inédit ni sa disponibilité en France.&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
-    <lastBuildDate>Sat, 07 Nov 2026 11:49:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:57:56 +0000</lastBuildDate>
   </channel>
 </rss>
