@@ -6,6 +6,20 @@
     <description>Synthèse quotidienne des trouvailles pertinentes.</description>
     <language>fr-FR</language>
     <item>
+      <title>Veille ciblée — quotidien — 25/11/2026</title>
+      <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
+      <guid isPermaLink="false">daily:2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 15:43:53 +0000</pubDate>
+      <description>&lt;p&gt;3 élément(s) retenu(s) par la veille quotidienne.&lt;/p&gt;
+&lt;h2&gt;Apple OS — découvertes techniques&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/WebKit/WebKit/pull/82197"&gt;&lt;strong&gt;PR #82197 — Launch the Enhanced Security shared process spare at utility QoS until it is used&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;WebKit · score 8/15 · confiance élevée&lt;br&gt;&lt;em&gt;Nouvel élément. Pull request, état : open Signaux : ios_tba, mac_tba, wk_ios_tba, wk_mac_tba.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;#### 25debcb878df5ca7fce9d2ea2b511901b3bd31c1 Launch the Enhanced Security shared process spare at utility QoS until it is used Need the bug URL (OOPS!). Include a Radar link (OOPS!). Reviewed by NOBODY (OOPS!). Add an internal preference, SiteIsolationSharedProcessEnhancedSecurityPrewarmUtilityQOSEnabled, off by default, that launches the prewarmed Enhanced Security process for the Site Isolation shared process with its main thread at QOS_CLASS_UTILITY, so its initialization and prewarm work can run on efficiency cores instead of competing with the page for performance cores. When the spare is taken, by the shared process or any other Enhanc&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Certifications&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=%28%EC%A3%BC%29%EC%95%A0%ED%94%8C%ED%95%AD%EA%B3%B5%EC%A1%B0%EB%AA%85"&gt;&lt;strong&gt;RRA — Apple : APDLC-30BW1-C4K&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : apple, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : APDLC-30BW1-C4K. Appareil : 매입형 및 고정형 등기구. Société : (주)애플항공조명. Type : 적합등록. Fabrication : 한국. Homologation : 2026-11-25.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rra.go.kr/ko/license/A_b_newlist.do?searchCon=PASSER&amp;amp;searchTxt=Ugreen+Group+Limited"&gt;&lt;strong&gt;RRA — Ugreen : DXP6800 Ultra&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Corée du Sud — RRA · score 6/15 · confiance moyenne&lt;br&gt;&lt;em&gt;Nouvel élément. Export officiel de la liste des nouvelles homologations ; couverture limitée à la fenêtre publiée par RRA. Signaux : ugreen, certification.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Certification RRA. Modèle : DXP6800 Ultra. Appareil : Network Attached Storage. Société : Ugreen Group Limited. Type : 적합등록. Fabrication : 중국. Homologation : 2026-11-25.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Veille ciblée — quotidien — 24/11/2026</title>
       <link>https://stephmouss.github.io/veille-flux/quotidien.xml</link>
       <guid isPermaLink="false">daily:2026-11-24</guid>
@@ -481,6 +495,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://stephmouss.github.io/veille-flux/ncc/CCAI265G0090T2.html"&gt;&lt;strong&gt;NCC — Apple : A3596 (CCAI265G0090T2)&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Taïwan — NCC · confiance moyenne&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Type de produit&lt;/th&gt;&lt;td&gt;Type non traduit — voir la désignation originale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Modèle&lt;/th&gt;&lt;td&gt;A3596&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Marque&lt;/th&gt;&lt;td&gt;APPLE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification NCC&lt;/th&gt;&lt;td&gt;CCAI265G0090T2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Date d’homologation&lt;/th&gt;&lt;td&gt;2026-10-27&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Certification valide&lt;/th&gt;&lt;td&gt;Oui&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Demandeur (nom officiel)&lt;/th&gt;&lt;td&gt;美商蘋果亞洲股份有限公司台灣分公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Fabricant&lt;/th&gt;&lt;td&gt;Non renseigné dans l’export NCC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Désignation originale&lt;/th&gt;&lt;td&gt;攜帶式平版電腦&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;Nom dans le dossier FCC du même modèle :&lt;/strong&gt; Tablet Device.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aucune photo publique récupérée pour cette fiche. L’export NCC ne contient pas de photos.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://fccid.io/BCGA3596"&gt;Dossier FCC du même modèle — documents et photos&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Source des faits : &lt;a href="https://api.ncc.gov.tw/uploaddowndoc?file=datagov%2Fvv_IPCCDB.json&amp;amp;filedisplay=vv_IPCCDB.json&amp;amp;flag=doc"&gt;export officiel NCC&lt;/a&gt;. Les catégories traduites ne constituent pas une identification commerciale. Une homologation ne garantit ni un produit inédit ni sa disponibilité en France.&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
-    <lastBuildDate>Tue, 24 Nov 2026 15:57:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 15:43:53 +0000</lastBuildDate>
   </channel>
 </rss>
